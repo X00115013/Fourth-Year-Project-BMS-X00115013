@@ -1,0 +1,14 @@
+{
+  "name": "test2nodejs",
+  "version": "2.11.2",
+  "description": "SecondTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TomMurray",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.4"
+  }
+}
