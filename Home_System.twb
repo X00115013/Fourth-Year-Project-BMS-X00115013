@@ -1,0 +1,1858 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10000.16.0917.1429                               -->
+<workbook source-build='10.0.1 (10000.16.0917.1429)' source-platform='win' version='10.0' xml:base='http://ava' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <repository-location id='Home_System' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (HomeCurrentSettings)' inline='true' name='federated.1wy1fgn1sedbt713d9nh714hofvn' version='10.0'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HomeCurrentSettings' name='excel-direct.1xc10rw0k9jes31bymw5616nvdt4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='\\ava\c$\Sharer\HomeCurrentSettings.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1xc10rw0k9jes31bymw5616nvdt4' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+            <column datatype='integer' name='electrical_Circuit_1' ordinal='0' />
+            <column datatype='integer' name='electrical_Circuit_2' ordinal='1' />
+            <column datatype='integer' name='electrical_Circuit_3' ordinal='2' />
+            <column datatype='integer' name='electrical_Circuit_4' ordinal='3' />
+            <column datatype='integer' name='heating_Circuit_1' ordinal='4' />
+            <column datatype='integer' name='heating_Circuit_2' ordinal='5' />
+            <column datatype='integer' name='heating_Circuit_3' ordinal='6' />
+            <column datatype='integer' name='heating_Circuit_4' ordinal='7' />
+            <column datatype='integer' name='door_access' ordinal='8' />
+          </columns>
+        </relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>electrical_Circuit_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electrical_Circuit_1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>electrical_Circuit_1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electrical_Circuit_2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electrical_Circuit_2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>electrical_Circuit_2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electrical_Circuit_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electrical_Circuit_3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>electrical_Circuit_3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electrical_Circuit_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electrical_Circuit_4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>electrical_Circuit_4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heating_Circuit_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heating_Circuit_1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heating_Circuit_1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heating_Circuit_2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heating_Circuit_2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heating_Circuit_2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heating_Circuit_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heating_Circuit_3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heating_Circuit_3</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heating_Circuit_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heating_Circuit_4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heating_Circuit_4</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>door_access</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[door_access]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>door_access</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I2:no:A1:I2:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' hidden='true' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Door Access' datatype='integer' name='[door_access]' role='measure' type='quantitative' />
+      <column caption='electrical Circuit 1' datatype='integer' name='[electrical_Circuit_1]' role='measure' type='quantitative' />
+      <column caption='electrical Circuit 2' datatype='integer' name='[electrical_Circuit_2]' role='measure' type='quantitative' />
+      <column caption='electrical Circuit 3' datatype='integer' name='[electrical_Circuit_3]' role='measure' type='quantitative' />
+      <column caption='electrical Circuit 4' datatype='integer' name='[electrical_Circuit_4]' role='measure' type='quantitative' />
+      <column caption='heating Circuit 1' datatype='integer' name='[heating_Circuit_1]' role='measure' type='quantitative' />
+      <column caption='heating Circuit 2' datatype='integer' name='[heating_Circuit_2]' role='measure' type='quantitative' />
+      <column caption='heating Circuit 3' datatype='integer' name='[heating_Circuit_3]' role='measure' type='quantitative' />
+      <column caption='heating Circuit 4' datatype='integer' name='[heating_Circuit_4]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='false' units='records'>
+        <connection class='dataengine' dbname='C:\Users\Tom\Desktop\Fourth-Year-Project-BMS-X00115013\Sheet1 (HomeCurrentSettings).tde' schema='Extract' tablename='Extract' update-time='03/30/2017 12:16:51 AM'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='1' timestamp-start='2017-03-30 00:16:51.945' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>door_access</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[door_access]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>door_access</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>electrical_Circuit_1</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[electrical_Circuit_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>electrical_Circuit_1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>0.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>0.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>0</statistic>
+                <statistic aggregation='Max' datatype='integer'>0</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>0</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>0.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>electrical_Circuit_2</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[electrical_Circuit_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>electrical_Circuit_2</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>electrical_Circuit_3</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[electrical_Circuit_3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>electrical_Circuit_3</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>electrical_Circuit_4</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[electrical_Circuit_4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>electrical_Circuit_4</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>0.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>0.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>0</statistic>
+                <statistic aggregation='Max' datatype='integer'>0</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>0</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>0.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heating_Circuit_1</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[heating_Circuit_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heating_Circuit_1</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heating_Circuit_2</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[heating_Circuit_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heating_Circuit_2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heating_Circuit_3</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[heating_Circuit_3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heating_Circuit_3</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heating_Circuit_4</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[heating_Circuit_4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heating_Circuit_4</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+                <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+                <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+                <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+                <statistic aggregation='Count' datatype='integer'>1</statistic>
+                <statistic aggregation='Median' datatype='integer'>1</statistic>
+                <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.319923' measure-ordering='alphabetic' measure-percentage='0.680077' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Electric 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Electric 1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='electrical Circuit 1' datatype='integer' name='[electrical_Circuit_1]' role='measure' type='quantitative' />
+            <column-instance column='[electrical_Circuit_1]' derivation='Sum' name='[sum:electrical_Circuit_1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_1:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_1:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Electric 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Electric 2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='electrical Circuit 2' datatype='integer' name='[electrical_Circuit_2]' role='measure' type='quantitative' />
+            <column-instance column='[electrical_Circuit_2]' derivation='Sum' name='[sum:electrical_Circuit_2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_2:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_2:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_2:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Electric 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Electric 3</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='electrical Circuit 3' datatype='integer' name='[electrical_Circuit_3]' role='measure' type='quantitative' />
+            <column-instance column='[electrical_Circuit_3]' derivation='Sum' name='[sum:electrical_Circuit_3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_3:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_3:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_3:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Electric 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Electric 4</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='electrical Circuit 4' datatype='integer' name='[electrical_Circuit_4]' role='measure' type='quantitative' />
+            <column-instance column='[electrical_Circuit_4]' derivation='Sum' name='[sum:electrical_Circuit_4:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_4:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_4:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_4:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Front Door'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Front Door</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='Door Access' datatype='integer' name='[door_access]' role='measure' type='quantitative' />
+            <column-instance column='[door_access]' derivation='Sum' name='[sum:door_access:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[door_access]' derivation='Sum' name='[sum:door_access:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]' />
+              <lod column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Heat 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Heating 1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='heating Circuit 1' datatype='integer' name='[heating_Circuit_1]' role='measure' type='quantitative' />
+            <column-instance column='[heating_Circuit_1]' derivation='Sum' name='[sum:heating_Circuit_1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_1:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_1:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Heat 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Heating 2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='heating Circuit 2' datatype='integer' name='[heating_Circuit_2]' role='measure' type='quantitative' />
+            <column-instance column='[heating_Circuit_2]' derivation='Sum' name='[sum:heating_Circuit_2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Heat 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Heating 3</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='heating Circuit 3' datatype='integer' name='[heating_Circuit_3]' role='measure' type='quantitative' />
+            <column-instance column='[heating_Circuit_3]' derivation='Sum' name='[sum:heating_Circuit_3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Heat 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' italic='true' underline='true'>Heating 4</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HomeCurrentSettings)' name='federated.1wy1fgn1sedbt713d9nh714hofvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wy1fgn1sedbt713d9nh714hofvn'>
+            <column caption='heating Circuit 4' datatype='integer' name='[heating_Circuit_4]' role='measure' type='quantitative' />
+            <column-instance column='[heating_Circuit_4]' derivation='Sum' name='[sum:heating_Circuit_4:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_4:qk]' max='1' min='0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_4:qk]' />
+              <text column='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_4:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='19' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='24' param='vert' type='layout-flow' w='100000' x='0' y='0'>
+            <zone h='99500' id='22' param='vert' type='layout-flow' w='100000' x='0' y='0'>
+              <zone h='99500' id='20' type='layout-basic' w='100000' x='0' y='0' />
+            </zone>
+          </zone>
+        </zone>
+        <zone h='26375' id='1' name='Front Door' w='33300' x='2600' y='5250' />
+        <zone h='7125' id='2' name='Front Door' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]' type='color' w='14000' x='15400' y='10375' />
+        <zone h='26375' id='3' name='Electric 1' w='33300' x='2300' y='26625' />
+        <zone h='7125' id='4' name='Electric 1' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_1:qk]' type='color' w='14000' x='15900' y='29625' />
+        <zone h='26375' id='5' name='Electric 2' w='33300' x='2200' y='49125' />
+        <zone h='7125' id='6' name='Electric 2' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_2:qk]' type='color' w='14000' x='16200' y='54875' />
+        <zone h='26375' id='7' name='Electric 3' w='33300' x='31200' y='4500' />
+        <zone h='7125' id='8' name='Electric 3' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_3:qk]' type='color' w='14000' x='44800' y='10125' />
+        <zone h='26375' id='9' name='Electric 4' w='33300' x='31900' y='26625' />
+        <zone h='7125' id='10' name='Electric 4' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_4:qk]' type='color' w='14000' x='45800' y='29750' />
+        <zone h='26375' id='11' name='Heat 1' w='33300' x='31800' y='49000' />
+        <zone h='7125' id='12' name='Heat 1' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_1:qk]' type='color' w='14000' x='45900' y='53375' />
+        <zone h='26375' id='13' name='Heat 2' w='33300' x='60400' y='4875' />
+        <zone h='7125' id='14' name='Heat 2' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]' type='color' w='14000' x='74600' y='10000' />
+        <zone h='26375' id='15' name='Heat 3' w='33300' x='60400' y='26625' />
+        <zone h='7125' id='16' name='Heat 3' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]' type='color' w='14000' x='75500' y='32625' />
+        <zone h='26375' id='17' name='Heat 4' w='33300' x='61000' y='48500' />
+        <zone h='7125' id='18' name='Heat 4' pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_4:qk]' type='color' w='14000' x='76100' y='53375' />
+      </zones>
+      <devicelayouts>
+        <devicelayout name='Desktop' />
+      </devicelayouts>
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Story Title</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='600' maxwidth='800' minheight='600' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='1' param='vert' removable='false' type='layout-flow' w='100000' x='0' y='0'>
+            <zone h='7501' id='3' type='title' w='100000' x='0' y='0' />
+            <zone h='18167' id='4' paired-zone-id='5' removable='false' type='flipboard-nav' w='100000' x='0' y='7501' />
+            <zone h='73665' id='5' paired-zone-id='4' removable='false' type='flipboard' w='100000' x='0' y='25668'>
+              <flipboard active-id='1' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Front Door Access' captured-sheet='Front Door' id='1'>
+                    <currentDeltas>
+                      <worksheet name='Front Door'>
+                        <selection-collection>
+                          <tuple-selection>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields />
+                                  <y-fields />
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:ok]</field>
+                                  <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>0</value>
+                                <value>0</value>
+                              </tuple>
+                            </tuple-reference>
+                          </tuple-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
+                  <story-point captured-sheet='Front Door' id='2' />
+                  <story-point captured-sheet='Front Door' id='3'>
+                    <capturedDeltas>
+                      <worksheet name='Front Door'>
+                        <selection-collection>
+                          <tuple-selection>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields />
+                                  <y-fields />
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:ok]</field>
+                                  <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>1</value>
+                                <value>1</value>
+                              </tuple>
+                            </tuple-reference>
+                          </tuple-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point captured-sheet='Electric 1' id='4' />
+                  <story-point captured-sheet='Electric 2' id='5' />
+                  <story-point captured-sheet='Electric 3' id='6' />
+                  <story-point captured-sheet='Electric 4' id='7' />
+                  <story-point captured-sheet='Heat 1' id='8' />
+                  <story-point captured-sheet='Heat 2' id='9' />
+                  <story-point captured-sheet='Heat 3' id='10' />
+                  <story-point captured-sheet='Heat 4' id='11' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Front Door'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:door_access:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Electric 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_1:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Electric 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_2:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Electric 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_3:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Electric 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:electrical_Circuit_4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Heat 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_1:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Heat 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Heat 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='237'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_3:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Heat 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='258'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Electric 1' />
+        <viewpoint name='Electric 2' />
+        <viewpoint name='Electric 3' />
+        <viewpoint name='Electric 4' />
+        <viewpoint name='Front Door' />
+        <viewpoint name='Heat 1' />
+        <viewpoint name='Heat 2'>
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.1wy1fgn1sedbt713d9nh714hofvn].[sum:heating_Circuit_2:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>0</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+        <viewpoint name='Heat 3' />
+        <viewpoint name='Heat 4' />
+      </viewpoints>
+      <active id='-1' />
+      <device-preview selected='Tablet'>
+        <device name='Generic Desktop Monitor' type='Desktop' />
+        <device is-portrait='false' name='iPad Mini' type='Tablet' />
+      </device-preview>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='164' name='Electric 1' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Electric 2' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Electric 3' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Electric 4' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Front Door' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Heat 1' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Heat 2' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Heat 3' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Heat 4' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

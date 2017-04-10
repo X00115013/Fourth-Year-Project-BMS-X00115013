@@ -28,7 +28,7 @@ namespace _4th_Year_BMS_Project.Migrations
             {
                 UserName = "first.hadron@gmail.com",
             };
-            ir = um.Create(user, "Tom12345#");
+            ir = um.Create(user, "Tom12345");
             if (ir.Succeeded == false)
                 return ir.Succeeded;
             ir = um.AddToRole(user.Id, "canEdit");
@@ -37,6 +37,7 @@ namespace _4th_Year_BMS_Project.Migrations
 
         protected override void Seed(_4th_Year_BMS_Project.Models.ApplicationDbContext context)
         {
+            /*
             //AddUserAndRole(context);
             context.Contacts.AddOrUpdate(p => p.Name,
                    new Contact
@@ -140,6 +141,7 @@ namespace _4th_Year_BMS_Project.Migrations
                         door_access = 1,
                     }
                     );
+                    */
         }
     }
 }

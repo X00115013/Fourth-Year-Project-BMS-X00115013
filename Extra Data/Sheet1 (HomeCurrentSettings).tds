@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10000.16.0917.1429                               -->
+<datasource formatted-name='federated.1wy1fgn1sedbt713d9nh714hofvn' inline='true' source-platform='win' version='10.0' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection caption='HomeCurrentSettings' name='excel-direct.1xc10rw0k9jes31bymw5616nvdt4'>
+        <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='\\ava\c$\Users\Tom\Desktop\Fourth-Year-Project-BMS-X00115013\HomeCurrentSettings.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+      </named-connection>
+    </named-connections>
+    <relation connection='excel-direct.1xc10rw0k9jes31bymw5616nvdt4' name='Sheet1' table='[Sheet1$]' type='table'>
+      <columns gridOrigin='A1:I2:no:A1:I2:0' header='yes' outcome='6'>
+        <column datatype='integer' name='electrical_Circuit_1' ordinal='0' />
+        <column datatype='integer' name='electrical_Circuit_2' ordinal='1' />
+        <column datatype='integer' name='electrical_Circuit_3' ordinal='2' />
+        <column datatype='integer' name='electrical_Circuit_4' ordinal='3' />
+        <column datatype='integer' name='heating_Circuit_1' ordinal='4' />
+        <column datatype='integer' name='heating_Circuit_2' ordinal='5' />
+        <column datatype='integer' name='heating_Circuit_3' ordinal='6' />
+        <column datatype='integer' name='heating_Circuit_4' ordinal='7' />
+        <column datatype='integer' name='door_access' ordinal='8' />
+      </columns>
+    </relation>
+    <refresh increment-key='' incremental-updates='false' />
+    <metadata-records>
+      <metadata-record class='column'>
+        <remote-name>electrical_Circuit_1</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[electrical_Circuit_1]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>electrical_Circuit_1</remote-alias>
+        <ordinal>0</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>electrical_Circuit_2</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[electrical_Circuit_2]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>electrical_Circuit_2</remote-alias>
+        <ordinal>1</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>electrical_Circuit_3</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[electrical_Circuit_3]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>electrical_Circuit_3</remote-alias>
+        <ordinal>2</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>electrical_Circuit_4</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[electrical_Circuit_4]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>electrical_Circuit_4</remote-alias>
+        <ordinal>3</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>heating_Circuit_1</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[heating_Circuit_1]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>heating_Circuit_1</remote-alias>
+        <ordinal>4</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>heating_Circuit_2</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[heating_Circuit_2]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>heating_Circuit_2</remote-alias>
+        <ordinal>5</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>heating_Circuit_3</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[heating_Circuit_3]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>heating_Circuit_3</remote-alias>
+        <ordinal>6</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>heating_Circuit_4</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[heating_Circuit_4]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>heating_Circuit_4</remote-alias>
+        <ordinal>7</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>door_access</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[door_access]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>door_access</remote-alias>
+        <ordinal>8</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='capability'>
+        <remote-name />
+        <remote-type>0</remote-type>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias />
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='integer' name='context'>0</attribute>
+          <attribute datatype='string' name='gridOrigin'>&quot;A1:I2:no:A1:I2:0&quot;</attribute>
+          <attribute datatype='boolean' name='header'>true</attribute>
+          <attribute datatype='integer' name='outcome'>6</attribute>
+        </attributes>
+      </metadata-record>
+    </metadata-records>
+  </connection>
+  <aliases enabled='yes' />
+  <column datatype='integer' hidden='true' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+    <calculation class='tableau' formula='1' />
+  </column>
+  <column caption='Door Access' datatype='integer' name='[door_access]' role='measure' type='quantitative' />
+  <column caption='electrical Circuit 1' datatype='integer' name='[electrical_Circuit_1]' role='measure' type='quantitative' />
+  <column caption='electrical Circuit 2' datatype='integer' name='[electrical_Circuit_2]' role='measure' type='quantitative' />
+  <column caption='electrical Circuit 3' datatype='integer' name='[electrical_Circuit_3]' role='measure' type='quantitative' />
+  <column caption='electrical Circuit 4' datatype='integer' name='[electrical_Circuit_4]' role='measure' type='quantitative' />
+  <column caption='heating Circuit 1' datatype='integer' name='[heating_Circuit_1]' role='measure' type='quantitative' />
+  <column caption='heating Circuit 2' datatype='integer' name='[heating_Circuit_2]' role='measure' type='quantitative' />
+  <column caption='heating Circuit 3' datatype='integer' name='[heating_Circuit_3]' role='measure' type='quantitative' />
+  <column caption='heating Circuit 4' datatype='integer' name='[heating_Circuit_4]' role='measure' type='quantitative' />
+  <extract count='-1' enabled='false' units='records'>
+    <connection class='dataengine' dbname='C:\Users\Tom\Desktop\Fourth-Year-Project-BMS-X00115013\Sheet1 (HomeCurrentSettings).tde' schema='Extract' tablename='Extract' update-time='03/30/2017 12:16:51 AM'>
+      <relation name='Extract' table='[Extract].[Extract]' type='table' />
+      <refresh increment-key='' incremental-updates='false'>
+        <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='1' timestamp-start='2017-03-30 00:16:51.945' />
+      </refresh>
+      <metadata-records>
+        <metadata-record class='column'>
+          <remote-name>door_access</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[door_access]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>door_access</remote-alias>
+          <ordinal>0</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>electrical_Circuit_1</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[electrical_Circuit_1]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>electrical_Circuit_1</remote-alias>
+          <ordinal>1</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>0.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>0.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>0</statistic>
+            <statistic aggregation='Max' datatype='integer'>0</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>0</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>0.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>electrical_Circuit_2</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[electrical_Circuit_2]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>electrical_Circuit_2</remote-alias>
+          <ordinal>2</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>electrical_Circuit_3</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[electrical_Circuit_3]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>electrical_Circuit_3</remote-alias>
+          <ordinal>3</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>electrical_Circuit_4</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[electrical_Circuit_4]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>electrical_Circuit_4</remote-alias>
+          <ordinal>4</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>0.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>0.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>0</statistic>
+            <statistic aggregation='Max' datatype='integer'>0</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>0</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>0.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>heating_Circuit_1</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[heating_Circuit_1]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>heating_Circuit_1</remote-alias>
+          <ordinal>5</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>heating_Circuit_2</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[heating_Circuit_2]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>heating_Circuit_2</remote-alias>
+          <ordinal>6</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>heating_Circuit_3</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[heating_Circuit_3]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>heating_Circuit_3</remote-alias>
+          <ordinal>7</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+        <metadata-record class='column'>
+          <remote-name>heating_Circuit_4</remote-name>
+          <remote-type>16</remote-type>
+          <local-name>[heating_Circuit_4]</local-name>
+          <parent-name>[Extract]</parent-name>
+          <remote-alias>heating_Circuit_4</remote-alias>
+          <ordinal>8</ordinal>
+          <family>Sheet1</family>
+          <local-type>integer</local-type>
+          <aggregation>Sum</aggregation>
+          <approx-count>1</approx-count>
+          <contains-null>false</contains-null>
+          <statistics>
+            <statistic aggregation='Sum' datatype='real'>1.0</statistic>
+            <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+            <statistic aggregation='Min' datatype='integer'>1</statistic>
+            <statistic aggregation='Max' datatype='integer'>1</statistic>
+            <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+            <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+            <statistic aggregation='Count' datatype='integer'>1</statistic>
+            <statistic aggregation='Median' datatype='integer'>1</statistic>
+            <statistic aggregation='SumXSqr' datatype='real'>1.0</statistic>
+          </statistics>
+          <attributes>
+            <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+            <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+            <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+            <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+          </attributes>
+        </metadata-record>
+      </metadata-records>
+    </connection>
+  </extract>
+  <layout dim-ordering='alphabetic' dim-percentage='0.407407' measure-ordering='alphabetic' measure-percentage='0.592593' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
+  </semantic-values>
+  <date-options start-of-week='monday' />
+</datasource>
