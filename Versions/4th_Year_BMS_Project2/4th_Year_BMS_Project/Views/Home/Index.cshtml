@@ -1,0 +1,102 @@
+﻿@model IEnumerable<_4th_Year_BMS_Project.Models.Contact>
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</div>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+<div class="jumbotron">
+    <script type='text/javascript' src='http://localhost:8000/javascripts/api/viz_v1.js'>
+    </script><div class='tableauPlaceholder' style='width: 1004px; height: 836px;'>
+    <object class='tableauViz' width='1004' height='836' style='display:none;'>
+    <param name='host_url' value='http%3A%2F%2Flocalhost%3A8000%2F' />
+     <param name='site_root' value='' /><param name='name' value='Home_System&#47;Dashboard1' />
+    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+    <param name='showShareOptions' value='true' />
+    </object>
+    </div>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.electrical_Circuit_1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.electrical_Circuit_2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.electrical_Circuit_3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.electrical_Circuit_4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.heating_Circuit_1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.heating_Circuit_2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.heating_Circuit_3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.heating_Circuit_4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.door_access)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.electrical_Circuit_1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.electrical_Circuit_2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.electrical_Circuit_3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.electrical_Circuit_4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.heating_Circuit_1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.heating_Circuit_2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.heating_Circuit_3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.heating_Circuit_4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.door_access)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ContactId }) |
+            </td>
+        </tr>
+    }
+
+</table>

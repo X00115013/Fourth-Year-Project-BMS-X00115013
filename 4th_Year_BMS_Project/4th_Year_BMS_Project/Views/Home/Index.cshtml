@@ -1,5 +1,17 @@
 ﻿@model IEnumerable<_4th_Year_BMS_Project.Models.Contact>
 
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+    <div class="navbar-collapse collapse">
+        @Html.Partial("_LoginPartial")
+    </div>
+</div>
+
+
 
 @{
     ViewBag.Title = "Index";

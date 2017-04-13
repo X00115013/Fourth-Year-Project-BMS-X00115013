@@ -9,12 +9,17 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using _4th_Year_BMS_Project.Models;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace _4th_Year_BMS_Project.Controllers
 {
+
     [Authorize]
     public class AccountController : Controller
     {
+        private ApplicationDbContext db = new ApplicationDbContext();
+
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -57,25 +62,54 @@ namespace _4th_Year_BMS_Project.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
+
+
+
 
         //
         // POST: /Account/Login
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
+        public ActionResult Login(LoginViewModel model, string returnUrl)
         {
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
 
-            // This doesn't count login failures towards account lockout
+            List<Contact> data = db.Contacts.OrderBy(c => c.ContactId).ToList();
+            string userdDB = "";
+            string passwordDB = "";
+
+            foreach (var item in data)
+            {
+                userdDB = item.Email;
+                passwordDB = item.PasswordIn;
+            }
+
+
+            Debug.WriteLine(userdDB);
+            Debug.WriteLine(passwordDB);
+            Debug.WriteLine(model.Email.ToString());
+            Debug.WriteLine(model.Password.ToString());
+
+            if (model.Email.ToString() == userdDB || model.Password.ToString() == passwordDB)
+                {
+                return RedirectToLocal(returnUrl);
+            }
+            else
+            {
+                return View(model);
+            }
+
+            /* This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+                var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -89,7 +123,12 @@ namespace _4th_Year_BMS_Project.Controllers
                     ModelState.AddModelError("", "Invalid login attempt.");
                     return View(model);
             }
+            */
         }
+
+
+
+
 
         //
         // GET: /Account/VerifyCode
@@ -103,6 +142,8 @@ namespace _4th_Year_BMS_Project.Controllers
             }
             return View(new VerifyCodeViewModel { Provider = provider, ReturnUrl = returnUrl, RememberMe = rememberMe });
         }
+
+
 
         //
         // POST: /Account/VerifyCode
